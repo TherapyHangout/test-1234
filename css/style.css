@@ -1,0 +1,52 @@
+html {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: system-ui;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+main {
+  width: min(1600px, 100% - 4rem);
+  margin-inline: auto;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+.gallery {
+  max-width: 55rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.content {
+  padding: 7rem 1rem 0.5rem 7rem;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.card1 {
+  background-color: rgb(189, 37, 108);
+}
+.card2 {
+  background-color: rgb(94, 0, 202);
+}
+
+.headline {
+  padding-left: 2rem;
+}
+
+.content img {
+  border-radius: 8px;
+  font-size: 0.875rem;
+}
